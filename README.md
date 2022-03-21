@@ -1,24 +1,19 @@
-# vue-manage
+# 后台管理项目
 
-## Project setup
-```
-yarn install
-```
+## 简介
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+   此项目是一个基于Vue2的订单管理后台项目，使用```element-ui```进行了UI界面的渲染，后端使用```mock```进行了接口的数据模拟；能够对订单商品、客户进行增删改查，并利用``` echarts```对订单销售数据进行了可视化展示；添加了用户权限功能，可以对不同的登录账号进行使用后台管理功能的权限限制;对``axios``进行了二次封装，简化代码量；
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 技术栈
 
-### Lints and fixes files
-```
-yarn lint
-```
+* vue-router
+* vuex
+* axios
+* element-ui
+* 二次封装axios
+* mock
+* echarts
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 项目中的难点
+
+后续补充
